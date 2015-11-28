@@ -19,12 +19,12 @@ h1, h2, h3{
 	background-color: #444;
 }
 a {
-	
+
 	text-decoration: none;
 }
-a:focus, a:hover {
-
-	text-decoration: underline;
+.nav-pills > li > a {
+	color: #444;
+	text-decoration: none;
 }
 .footer {
   position: absolute;
