@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+label{
+  class: text-muted;
+  color: #777;
+}
+#linkslink{
+  float: left;
+  padding-right: 1%;
+  padding-top: 1%
+}

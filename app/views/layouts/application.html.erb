@@ -27,9 +27,18 @@
 <%= yield %>
 </div><!--page-wrap-->
 <footer class="footer">
+  <section>
   <div class="container">
-  <p class="text-muted"><%= link_to "links", static_pages_links_path %></p>
+  <p id="linkslink" class="text-muted"><%= link_to "links", static_pages_links_path %></p>
+<div class="search">
+  <%= form_tag("/products", method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
 </div>
+</div>
+</section>
 </footer>
 
 </body>
