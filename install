@@ -1,10 +1,461 @@
-Script started on Sat 12 Dec 2015 06:50:55 PM MST
-]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ plugin install git://github.com/adamwiggins/g mail_smtp.git
-plugin: command not found
-]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ plugin install git://github.com/adamwiggins/gmmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git clone https://github.com/MaddAdam/cfrails3[K[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ plugin install git://github.com/adamwiggins/gmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cplugin install git://github.com/adamwiggins/gmmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git clone https://github.com/MaddAdam/cfrails3[K[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [19Pheroku run rake db:migrate
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/MaddAdam/cfrails33[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ plugin install git://github.com/adamwiggins/gmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cplugin install git://github.com/adamwiggins/gmmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git clone https://github.com/MaddAdam/cfrails3[K[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ plugin install git://github.com/adamwiggins/gmail_smtp.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C install git://github.com/adamwiggins/gma[1Pil_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[C[C[C[C install git://github.com/adamwiggins/gmai[1Pl_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[C[C[C install git://github.com/adamwiggins/gmail[1P_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[C[C install git://github.com/adamwiggins/gmail_[1Psmtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[C install git://github.com/adamwiggins/gmail_s[1Pmtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C install git://github.com/adamwiggins/gmail_sm[1Ptp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ s install git://github.com/adamwiggins/gmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [Cc install git://github.com/adamwiggins/gmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[Cr install git://github.com/adamwiggins/gmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[C[Ci install git://github.com/adamwiggins/gmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[C[C[Cp install git://github.com/adamwiggins/gmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[C[C[C[Ct install git://github.com/adamwiggins/gmail_smtp.git[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [C[C[C[C[C[C
-
-Script started, file is install
-]0;rails@rails-VirtualBox: ~/cfrails3r
+Script started on Sat 12 Dec 2015 06:52:09 PM MST
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rails generate mailer UserMailer
+[1m[32m      create[0m  app/mailers/user_mailer.rb
+[1m[37m      invoke[0m  erb
+[1m[32m      create[0m    app/views/user_mailer
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rails generate mailer UserMailergit clone https://github.com/MaddAdam/cfrails33[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [19Pheroku run rake db:migrate
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/MaddAdam/cfrails33[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [13Prails generate mailer UserMailer
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K1674 lakewood road south NW[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krails generate mailer UserMailergit clone https://github.com/MaddAdam/cfrails33[A]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ [13Prails generate mailer UserMailer
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/controllers/static_pages_controller.rb[m
+	[31mmodified:   app/views/static_pages/contact.html.erb[m
+	[31mmodified:   config/environment.rb[m
+	[31mmodified:   config/routes.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mapp/mailers/user_mailer.rb[m
+	[31mapp/views/static_pages/thank_you.html.erb[m
+	[31minstall[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git add .
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git add .status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   app/controllers/static_pages_controller.rb[m
+	[32mnew file:   app/mailers/user_mailer.rb[m
+	[32mmodified:   app/views/static_pages/contact.html.erb[m
+	[32mnew file:   app/views/static_pages/thank_you.html.erb[m
+	[32mmodified:   config/environment.rb[m
+	[32mmodified:   config/routes.rb[m
+	[32mnew file:   install[m
+
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git commit -m "contact a[Kmailer"
+[master 1fe74eb] contact mailer
+ 7 files changed, 74 insertions(+), 2 deletions(-)
+ create mode 100644 app/mailers/user_mailer.rb
+ rewrite app/views/static_pages/contact.html.erb (100%)
+ create mode 100644 app/views/static_pages/thank_you.html.erb
+ create mode 100644 install
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git push origin master
+Username for 'https://github.com': MaddAdam
+Password for 'https://MaddAdam@github.com': 
+Counting objects: 15, done.
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 2.36 KiB | 0 bytes/s, done.
+Total 15 (delta 7), reused 0 (delta 0)
+To https://github.com/MaddAdam/cfrails3
+   8ac4750..1fe74eb  master -> master
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git push heroku
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 15, done.
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 2.36 KiB | 0 bytes/s, done.
+Total 15 (delta 7), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Using set buildpack heroku/ruby[K
+remote: -----> Ruby app detected[K
+remote: -----> Compiling Ruby/Rails[K
+remote: -----> Using Ruby version: ruby-2.0.0[K
+remote: -----> Installing dependencies using bundler 1.9.7[K
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment[K
+remote:        Rubygems 2.0.14 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.[K
+remote:        Using rake 10.4.2[K
+remote:        Using i18n 0.7.0[K
+remote:        Using json 1.8.3[K
+remote:        Using minitest 5.8.2[K
+remote:        Using thread_safe 0.3.5[K
+remote:        Using tzinfo 1.2.2[K
+remote:        Using activesupport 4.1.10[K
+remote:        Using builder 3.2.2[K
+remote:        Using erubis 2.7.0[K
+remote:        Using actionview 4.1.10[K
+remote:        Using rack 1.5.5[K
+remote:        Using rack-test 0.6.3[K
+remote:        Using actionpack 4.1.10[K
+remote:        Using mime-types 2.6.2[K
+remote:        Using mail 2.6.3[K
+remote:        Using actionmailer 4.1.10[K
+remote:        Using activemodel 4.1.10[K
+remote:        Using arel 5.0.1.20140414130214[K
+remote:        Using activerecord 4.1.10[K
+remote:        Using coffee-script-source 1.10.0[K
+remote:        Using execjs 2.6.0[K
+remote:        Using coffee-script 2.4.1[K
+remote:        Using thor 0.19.1[K
+remote:        Using railties 4.1.10[K
+remote:        Using coffee-rails 4.0.1[K
+remote:        Using hike 1.2.3[K
+remote:        Using multi_json 1.11.2[K
+remote:        Using jbuilder 2.3.2[K
+remote:        Using jquery-rails 3.1.4[K
+remote:        Using pg 0.18.4[K
+remote:        Using bundler 1.9.7[K
+remote:        Using tilt 1.4.1[K
+remote:        Using sprockets 2.12.4[K
+remote:        Using sprockets-rails 2.3.3[K
+remote:        Using rails 4.1.10[K
+remote:        Using rails_serve_static_assets 0.0.4[K
+remote:        Using rails_stdout_logging 0.0.4[K
+remote:        Using rails_12factor 0.0.3[K
+remote:        Using rdoc 4.2.0[K
+remote:        Using sass 3.2.19[K
+remote:        Using sass-rails 4.0.5[K
+remote:        Using sdoc 0.4.1[K
+remote:        Using turbolinks 2.5.3[K
+remote:        Using uglifier 2.7.2[K
+remote:        Bundle complete! 12 Gemfile dependencies, 44 gems now installed.[K
+remote:        Gems in the groups development and test were not installed.[K
+remote:        Bundled gems are installed into ./vendor/bundle.[K
+remote:        Bundle completed (0.31s)[K
+remote:        Cleaning up the bundler cache.[K
+remote: -----> Preparing app for Rails asset pipeline[K
+remote:        Running: rake assets:precompile[K
+remote:        Asset precompilation completed (1.08s)[K
+remote:        Cleaning assets[K
+remote:        Running: rake assets:clean[K
+remote: 
+remote: ###### WARNING:[K
+remote:        You have not declared a Ruby version in your Gemfile.[K
+remote:        To set your Ruby version add this line to your Gemfile:[K
+remote:        ruby '2.0.0'[K
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.[K
+remote: 
+remote: ###### WARNING:[K
+remote:        No Procfile detected, using the default web server (webrick)[K
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server[K
+remote: 
+remote: 
+remote: -----> Discovering process types[K
+remote:        Procfile declares types     -> (none)[K
+remote:        Default types for buildpack -> console, rake, web, worker[K
+remote: 
+remote: -----> Compressing... done, 27.9MB[K
+remote: -----> Launching... done, v9[K
+remote:        https://desolate-citadel-5495.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/desolate-citadel-5495.git
+   8ac4750..1fe74eb  master -> master
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ GIT CHECKOUT -[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit checkout - [Kb authentication
+M	install
+Switched to a new branch 'authentication'
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git branch
+* [32mauthentication[m
+  master[m
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rails generate scaffold user first_name last_ name
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20151215011444_create_users.rb
+[1m[32m      create[0m    app/models/user.rb
+[1m[37m      invoke[0m  resource_route
+[1m[32m       route[0m    resources :users
+[1m[37m      invoke[0m  scaffold_controller
+[1m[32m      create[0m    app/controllers/users_controller.rb
+[1m[37m      invoke[0m    erb
+[1m[32m      create[0m      app/views/users
+[1m[32m      create[0m      app/views/users/index.html.erb
+[1m[32m      create[0m      app/views/users/edit.html.erb
+[1m[32m      create[0m      app/views/users/show.html.erb
+[1m[32m      create[0m      app/views/users/new.html.erb
+[1m[32m      create[0m      app/views/users/_form.html.erb
+[1m[37m      invoke[0m    helper
+[1m[32m      create[0m      app/helpers/users_helper.rb
+[1m[37m      invoke[0m    jbuilder
+[1m[32m      create[0m      app/views/users/index.json.jbuilder
+[1m[32m      create[0m      app/views/users/show.json.jbuilder
+[1m[37m      invoke[0m  assets
+[1m[37m      invoke[0m    coffee
+[1m[32m      create[0m      app/assets/javascripts/users.js.coffee
+[1m[37m      invoke[0m    scss
+[1m[32m      create[0m      app/assets/stylesheets/users.css.scss
+[1m[37m      invoke[0m  scss
+[1m[34m   identical[0m    app/assets/stylesheets/scaffolds.css.scss
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ run rake db:migrate
+No command 'run' found, did you mean:
+ Command 'rn' from package 'trn4' (multiverse)
+ Command 'rn' from package 'trn' (multiverse)
+ Command 'srun' from package 'slurm-client' (universe)
+ Command 'qrun' from package 'torque-client-x11' (universe)
+ Command 'qrun' from package 'torque-client' (universe)
+ Command 'runq' from package 'exim4-daemon-light' (main)
+ Command 'runq' from package 'exim4-daemon-heavy' (main)
+ Command 'runq' from package 'sendmail-bin' (universe)
+ Command 'zrun' from package 'moreutils' (universe)
+ Command 'grun' from package 'grun' (universe)
+ Command 'rup' from package 'rstat-client' (universe)
+run: command not found
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ run rake db:migrate[1P[1P[1P[1P
+== 20151215011444 CreateUsers: migrating ======================================
+-- create_table(:users)
+   -> 0.0078s
+== 20151215011444 CreateUsers: migrated (0.0086s) =============================
+
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ bundle install
+Fetching gem metadata from https://rubygems.org/............
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies...
+Using rake 10.4.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.8.2
+Using thread_safe 0.3.5
+Using tzinfo 1.2.2
+Using activesupport 4.1.10
+Using builder 3.2.2
+Using erubis 2.7.0
+Using actionview 4.1.10
+Using rack 1.5.5
+Using rack-test 0.6.3
+Using actionpack 4.1.10
+Using mime-types 2.6.2
+Using mail 2.6.3
+Using actionmailer 4.1.10
+Using activemodel 4.1.10
+Using arel 5.0.1.20140414130214
+Using activerecord 4.1.10
+
+
+Your user account isn't allowed to install to the system Rubygems.
+You can cancel this installation and run:
+
+    bundle install --path vendor/bundle
+
+to install the gems into ./vendor/bundle/, or you can enter your password
+and install the bundled gems to Rubygems using sudo.
+
+Password: 
+[32mInstalling bcrypt 3.1.10 with native extensions[0m
+Using bundler 1.10.6
+Using coffee-script-source 1.10.0
+Using execjs 2.6.0
+Using coffee-script 2.4.1
+Using thor 0.19.1
+Using railties 4.1.10
+Using coffee-rails 4.0.1
+[32mInstalling orm_adapter 0.5.0[0m
+[32mInstalling responders 1.1.2[0m
+[32mInstalling warden 1.2.4[0m
+[32mInstalling devise 3.5.3[0m
+Using hike 1.2.3
+Using multi_json 1.11.2
+Using jbuilder 2.3.2
+Using jquery-rails 3.1.4
+Using pg 0.18.4
+Using tilt 1.4.1
+Using sprockets 2.12.4
+Using sprockets-rails 2.3.3
+Using rails 4.1.10
+Using rails_serve_static_assets 0.0.4
+Using rails_stdout_logging 0.0.4
+Using rails_12factor 0.0.3
+Using rdoc 4.2.0
+Using sass 3.2.19
+Using sass-rails 4.0.5
+Using sdoc 0.4.1
+Using spring 1.4.3
+Using sqlite3 1.3.11
+Using turbolinks 2.5.3
+Using uglifier 2.7.2
+[32mBundle complete! 13 Gemfile dependencies, 51 gems now installed.[0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rails g devise:install
+[1m[32m      create[0m  config/initializers/devise.rb
+[1m[32m      create[0m  config/locales/devise.en.yml
+===============================================================================
+
+Some setup you must do manually if you haven't yet:
+
+  1. Ensure you have defined default url options in your environments files. Here
+     is an example of default_url_options appropriate for a development environment
+     in config/environments/development.rb:
+
+       config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+     In production, :host should be set to the actual host of your application.
+
+  2. Ensure you have defined root_url to *something* in your config/routes.rb.
+     For example:
+
+       root to: "home#index"
+
+  3. Ensure you have flash messages in app/views/layouts/application.html.erb.
+     For example:
+
+       <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
+  4. If you are deploying on Heroku with Rails 3.2 only, you may want to set:
+
+       config.assets.initialize_on_precompile = false
+
+     On config/application.rb forcing your application to not access the DB
+     or load models when precompiling your assets.
+
+  5. You can copy Devise views (for customization) to your app by running:
+
+       rails g devise:views
+
+===============================================================================
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rails g devise User
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20151215015346_add_devise_to_users.rb
+[1m[32m      insert[0m    app/models/user.rb
+[1m[32m       route[0m  devise_for :users
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rake db:migrate
+== 20151215015346 AddDeviseToUsers: migrating =================================
+-- change_table(:users)
+   -> 0.0192s
+-- add_index(:users, :email, {:unique=>true})
+   -> 0.0044s
+-- add_index(:users, :reset_password_token, {:unique=>true})
+   -> 0.0020s
+== 20151215015346 AddDeviseToUsers: migrated (0.0331s) ========================
+
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rails generate devise:views
+[1m[32m      invoke[0m  Devise::Generators::SharedViewsGenerator
+[1m[32m      create[0m    app/views/devise/shared
+[1m[32m      create[0m    app/views/devise/shared/_links.html.erb
+[1m[37m      invoke[0m  form_for
+[1m[32m      create[0m    app/views/devise/confirmations
+[1m[32m      create[0m    app/views/devise/confirmations/new.html.erb
+[1m[32m      create[0m    app/views/devise/passwords
+[1m[32m      create[0m    app/views/devise/passwords/edit.html.erb
+[1m[32m      create[0m    app/views/devise/passwords/new.html.erb
+[1m[32m      create[0m    app/views/devise/registrations
+[1m[32m      create[0m    app/views/devise/registrations/edit.html.erb
+[1m[32m      create[0m    app/views/devise/registrations/new.html.erb
+[1m[32m      create[0m    app/views/devise/sessions
+[1m[32m      create[0m    app/views/devise/sessions/new.html.erb
+[1m[32m      create[0m    app/views/devise/unlocks
+[1m[32m      create[0m    app/views/devise/unlocks/new.html.erb
+[1m[37m      invoke[0m  erb
+[1m[32m      create[0m    app/views/devise/mailer
+[1m[32m      create[0m    app/views/devise/mailer/confirmation_instructions.html.erb
+[1m[32m      create[0m    app/views/devise/mailer/password_change.html.erb
+[1m[32m      create[0m    app/views/devise/mailer/reset_password_instructions.html.erb
+[1m[32m      create[0m    app/views/devise/mailer/unlock_instructions.html.erb
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git status
+On branch authentication
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   Gemfile[0m  config/initializers/devise.rb
+[1m[32m      create[0m  config/locales/devise.en.yml
+===============================================================================
+
+Some setup you must do manually if you haven't yet:
+
+  1. Ensure you have defined default url options in your environments files. Here
+     is an example of default_url_options appropriate for a development environment
+     in config/environments/development.rb:
+
+       config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+     In production, :host should be set to the actual host of your application.
+
+  2. Ensure you have defined root_url to *something* in your config/routes.rb.
+     For example:
+
+       root to: "home#index"
+
+  3. Ensure you have flash messages in app/views/layouts/application.html.erb.
+     For example:
+
+       <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
+  4. If you are deploying on Heroku with Rails 3.2 only, you may want to set:
+
+       config.assets.initialize_on_precompile = false
+
+     On config/application.rb forcing your application to not access the DB
+     or load models when precompiling your assets.
+
+  5. You can copy Devise views (for customization) to your app by running:
+
+       rails g devise:views
+
+===============================================================================
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rails g devise User
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20151215015346_add_devise_to_users.rb
+[1m[32m      insert[0m    app/models/user.rb
+[1m[32m       route[0m  devise_for :users
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rake db:migrate
+== 20151215015346 AddDeviseToUsers: migrating =================================
+-- change_table(:users)
+   -> 0.0192s
+-- add_index(:users, :email, {:unique=>true})
+   -> 0.0044s
+-- add_index(:users, :reset_password_token, {:unique=>true})
+   -> 0.0020s
+== 20151215015346 AddDeviseToUsers: migrated (0.0331s) ========================
+
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ rails generate devise:views
+[1m[32m      invoke[0m  Devise::Generators::SharedViewsGenerator
+[1m[32m      create[0m    app/views/devise/shared
+[1m[32m      create[0m    app/views/devise/shared/_links.html.erb
+[1m[37m      invoke[0m  form_for
+[1m[32m      create[0m    app/views/devise/confirmations
+[1m[32m      create[0m    app/views/devise/confirmations/new.html.erb
+[1m[32m      create[0m    app/views/devise/passwords
+[1m[32m      create[0m    app/views/devise/passwords/edit.html.erb
+[1m[32m      create[0m    app/views/devise/passwords/new.html.erb
+[1m[32m      create[0m    app/views/devise/registrations
+[1m[32m      create[0m    app/views/devise/registrations/edit.html.erb
+[1m[32m      create[0m    app/views/devise/registrations/new.html.erb
+[1m[32m      create[0m    app/views/devise/sessions
+[1m[32m      create[0m    app/views/devise/sessions/new.html.erb
+[1m[32m      create[0m    app/views/devise/unlocks
+[1m[32m      create[0m    app/views/devise/unlocks/new.html.erb
+[1m[37m      invoke[0m  erb
+[1m[32m      create[0m    app/views/devise/mailer
+[1m[32m      create[0m    app/views/devise/mailer/confirmation_instructions.html.erb
+[1m[32m      create[0m    app/views/devise/mailer/password_change.html.erb
+[1m[32m      create[0m    app/views/devise/mailer/reset_password_instructions.html.erb
+[1m[32m      create[0m    app/views/devise/mailer/unlock_instructions.html.erb
+]0;rails@rails-VirtualBox: ~/cfrails3rails@rails-VirtualBox:~/cfrails3$ git status
+On branch authentication
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   Gemfile[m
+	[31mmodified:   Gemfile.lock[m
+	[31mmodified:   app/models/order.rb[m
+	[31mmod
