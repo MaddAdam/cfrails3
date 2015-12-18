@@ -1,4 +1,12 @@
+
 <p id="notice"><%= notice %></p>
+
+<div class="col-sm-6 col-md-4 col-lg-12">
+<div class="thumbnail">
+<img src="<%= @product.image_url %>" alt="#">
+</div>
+
+
 
 <p>
   <strong>Name:</strong>
@@ -10,10 +18,7 @@
   <%= @product.description %>
 </p>
 
-<p>
-  <strong>Image url:</strong>
-  <%= @product.image_url %>
-</p>
+
 
 <p>
   <strong>Color:</strong>
@@ -22,3 +27,4 @@
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
+</div>
