@@ -13,7 +13,7 @@ describe Product do
   end
 
   context "tests against nameless products" do
-    before { @product= Product.create!( description: "cool", image_url:"#", color: "white")}
+    before { @product= Product.create!(name: "", description: "cool", image_url:"#", color: "white")}
 
     it "should fail" do
       expect(@product).not_to be_valid
