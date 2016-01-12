@@ -41,8 +41,12 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-
+group :development do
+gem 'guard'
+gem 'guard-rspec', require: false
+gem 'spork-rails'
+gem "guard-spork"
+end
 gem 'devise'
 
 gem 'cancancan'
