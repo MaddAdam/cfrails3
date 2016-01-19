@@ -3,9 +3,10 @@ class PaymentsController < ApplicationController
   def create
 
 
-    logger.debug {"g #{@g.inspect}"}
+    
 
     @product = Product.find(params[:product_id_test])
+    logger.debug {"product #{@product.inspect}"}
     @user = current_user
     @cost = Float(@product.price)/100
 

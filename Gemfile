@@ -3,6 +3,7 @@ group :production do
   gem 'rails_12factor'
   gem 'pg'
 end
+gem 'byebug'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.10'
 # Use sqlite3 as the database for Active Record
