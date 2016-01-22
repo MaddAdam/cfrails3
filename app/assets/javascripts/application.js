@@ -16,6 +16,7 @@
 //= require_tree .
 
 $(document).on("ready page:load", function(){
+  $('#zoom_01').elevateZoom();
   $('.rating').raty({path: "/assets", scoreName: "comment[rating]"});
   $(".rated").raty({path: "/assets",
     readOnly: true,
