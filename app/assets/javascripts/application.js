@@ -14,14 +14,22 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-$(document).on("ready page:load", function(){
-  $('#zoom_01').elevateZoom();
+function ratying(){
+  console.log(2)
   $('.rating').raty({path: "/assets", scoreName: "comment[rating]"});
   $(".rated").raty({path: "/assets",
     readOnly: true,
     score: function() {
       return $(this).attr("data-score");
     }
+
   });
+
+};
+
+$(document).on("ready page:load", function(){
+  $('#zoom_01').elevateZoom();
+  console.log(1);
+
+  ratying();
 });
