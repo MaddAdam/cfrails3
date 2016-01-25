@@ -9,13 +9,14 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
+//= require angular
+//= require angular-resource
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
 function ratying(){
-  console.log(2)
+
   $('.rating').raty({path: "/assets", scoreName: "comment[rating]"});
   $(".rated").raty({path: "/assets",
     readOnly: true,
@@ -29,7 +30,7 @@ function ratying(){
 
 $(document).on("ready page:load", function(){
   $('#zoom_01').elevateZoom();
-  console.log(1);
+
 
   ratying();
 });
