@@ -1,46 +1,45 @@
 
 <p id="notice"><%= notice %></p>
 <% cache @product do %>
-<div class="col-sm-6 col-md-4 col-lg-12">
-<div class="thumbnail">
-<img id="zoom_01"src="<%= @product.image_url %>" alt="#"data-zoom-image="<%= @product.image_url %>">
+<div class="container-fluid">
+
+  <div id="show-product-border">
+  <div class="thumbnail">
+  <img id="zoom_01"src="<%= @product.image_url %>" alt="#"data-zoom-image="<%= @product.image_url %>">
+  </div>
+
+
+  <div id="show-product-spacing">
+    <h4 class="pull-right">$<%= @product.price / 100.0 %></h4>
+    <h4><%=@product.name%></h4>
+
+    <br/>
+
+
+  <p>
+    <%= @product.description %>
+  </p>
+
+
+
+
+  <br/>
+
+  <%= form_tag "/payments/create" do %>
+    <%= hidden_field_tag "product_id_test", @product.id %>
+    <%= render partial: "shared/stripe_checkout_button" %>
+  <% end %>
+
+  <p><div class="rated" data-score="<%= @product.average_rating %>"></div> </p>
 </div>
-
-
-
-<p>
-  <strong>Name:</strong>
-  <%= @product.name %>
-</p>
-
-<p>
-  <strong>Price:</strong>
-  <%= @product.price / 100.0 %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @product.description %>
-</p>
-
-
-
-<p>
-  <strong>Color:</strong>
-  <%= @product.color %>
-</p>
-
-<%= form_tag "/payments/create" do %>
-  <%= hidden_field_tag "product_id_test", @product.id %>
-  <%= render partial: "shared/stripe_checkout_button" %>
-<% end %>
-
-<p>Average Rating: <div class="rated" data-score="<%= @product.average_rating %>"></div> </p>
-
+</div>
+<div id="show-product-spacing">
 <%= render 'new_comment' %>
 <%= render "comments" %>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
 <%end%>
+</div>
+
 </div>

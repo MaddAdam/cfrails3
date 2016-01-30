@@ -2,9 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.col-md-4 {
+.big-picture{
 	width: 100%;
 }
-.col-sm-6{
-  width: 100%
+#show-product-border{
+	border: 1px solid #ccc;
+}
+#show-product-spacing{
+	margin: 15px;
+}
+#carousel-example-generic{
+	margin: auto;
+	width: 800px;
 }

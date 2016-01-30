@@ -13,12 +13,13 @@
   <div class="page-wrap">
   <nav>
     <ul class="nav nav-pills">
-      <li role="presentation" class="active"><%= link_to "index", static_pages_index_path %></li>
+      <li role="presentation" class="active"><%= link_to "the mug shop.", static_pages_index_path %></li>
+      <li role="presentation"><%= link_to "shop", products_path %></li>
       <li role="presentation"><%= link_to "about", static_pages_about_path %></li>
       <li role="presentation"><%= link_to "contact", static_pages_contact_path %></li>
-    </ul>
-    <ul class="nav pull-right">
-    <li>
+
+
+    <li class="nav pull-right">
     <% if user_signed_in? %>
       <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
     <% else %>
@@ -27,6 +28,7 @@
     </li>
   </ul>
   </nav>
+  <br/>
 
   <% if notice %>
     <p id="notice" class="alert alert-info"><%= notice %></p>
@@ -34,8 +36,7 @@
 <% if alert %>
   <p id="alert" class="alert alert-danger"><%= alert %></p>
 <% end %>
-<h1>Welcome to Bike Berlin!</h1>
-<h2>Your source for used bikes in Berlin</h2>
+
 
 
 
@@ -44,14 +45,7 @@
 <footer class="footer">
   <section>
   <div class="container">
-  <p id="linkslink" class="text-muted"><%= link_to "links", static_pages_links_path %></p>
-<div class="search">
-  <%= form_tag("/products", method: "get") do %>
-  <%= label_tag(:q, "Search for:") %>
-  <%= text_field_tag(:q) %>
-  <%= submit_tag("Search") %>
-<% end %>
-</div>
+  
 </div>
 </section>
 </footer>

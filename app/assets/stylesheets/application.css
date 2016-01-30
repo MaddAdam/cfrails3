@@ -18,7 +18,7 @@
    background-color: #eeeeee;
    font-size: 18px;
    margin: 40px auto 0px;
-   max-width: 650px;
+   max-width: 66%;
    line-height: 1.6;
    padding: 0 10px;
    font-family: sans-serif;
@@ -46,6 +46,7 @@
  .nav-pills > li > a {
  	color: #444;
  	text-decoration: none;
+  background-color: #EEE;
  }
 label{
   class: text-muted;
